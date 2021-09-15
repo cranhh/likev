@@ -372,19 +372,19 @@ echo $BRed." $err \n"; die;
 }
 function delay ($delay){
 for($tt = $delay ;$tt> -1;$tt--){
-        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m  $tt Giây| ";
+        echo "    \033[1;97mChờ Delay \033[1;90m  $tt Giây| ";
         usleep(150000);
-        echo "\r\033[1;97m    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
+        echo "    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m $tt Giây ";
+        echo "    \033[1;97mChờ Delay \033[1;90m $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;97m    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
+        echo "    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m | $tt Giây ";
+        echo "    \033[1;97mChờ Delay \033[1;90m | $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;97m    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
+        echo "    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m  $tt Giây ";
+        echo "    \033[1;97mChờ Delay \033[1;90m  $tt Giây ";
         usleep(150000);}
         
         echo "\r\e[1;32m    ⚡Doãn Đình⚡                       \r";
